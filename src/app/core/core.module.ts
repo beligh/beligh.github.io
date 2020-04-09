@@ -9,6 +9,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {RouterModule} from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [NavigationComponent],
@@ -22,6 +24,7 @@ import {HttpClientModule} from '@angular/common/http';
     MatListModule,
     RouterModule,
     HttpClientModule,
+    FlexLayoutModule,
   ],
   exports: [
     NavigationComponent

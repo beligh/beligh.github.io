@@ -14,4 +14,8 @@ export class AppService {
   findConfig(): Observable<any> {
     return this.http.get(`assets/config.json?cacheBuster=${environment.cacheBusterHash}`);
   }
+
+  fetchLinks(): Observable<any> {
+    return this.http.get(`assets/links.json?cacheBuster=${environment.cacheBusterHash}`);
+  }
 }

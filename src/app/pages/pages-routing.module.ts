@@ -4,12 +4,16 @@ import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {CvComponent} from './cv/cv.component';
+import {UsefulLinksComponent} from './useful-links/useful-links.component';
+import {LinkDetailsComponent} from './useful-links/link-details/link-details.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'cv', component: CvComponent },
+  { path: 'useful-links', component: UsefulLinksComponent },
+  { path: 'useful-links/:id', component: LinkDetailsComponent },
   { path: '',  redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];

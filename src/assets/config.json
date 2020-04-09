@@ -3,7 +3,8 @@
   "logo": "assets/img/beligh50x50.png",
   "links": [
     { "path": "/home", "title": "Home", "icon": "home" },
-    { "path": "/about", "title": "About", "icon": "school" },
+    { "path": "/useful-links", "title": "Useful Links", "icon": "web" },
+    { "path": "/about", "title": "About", "icon": "info" },
     { "path": "/cv", "title": "CV", "icon": "school" }
   ]
 }
