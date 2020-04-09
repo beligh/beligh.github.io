@@ -12,6 +12,8 @@ import {Observable} from 'rxjs';
 export class UsefulLinksComponent implements OnInit {
   dataSource: any = [] ;
   breakpoint: number;
+  defaultImage = `assets/img/cube64px.svg`;
+  imageToShowOnError = 'assets/img/notfound.png';
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(

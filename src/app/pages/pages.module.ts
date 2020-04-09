@@ -17,7 +17,7 @@ import {MatCardModule} from '@angular/material/card';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {LayoutModule} from '@angular/cdk/layout';
-
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [HomeComponent, AboutComponent, CvComponent, PageNotFoundComponent,
@@ -34,6 +34,7 @@ import {LayoutModule} from '@angular/cdk/layout';
     FlexLayoutModule,
     MatGridListModule,
     LayoutModule,
+    LazyLoadImageModule,
   ]
 })
 export class PagesModule { }
