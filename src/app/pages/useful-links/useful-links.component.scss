@@ -3,8 +3,7 @@
 }
 
 .app-card {
-  min-width: 250px;
-  max-width: 400px;
+  width: 400px;
   margin: 5px
 }
 
@@ -15,7 +14,8 @@
 }
 
 .app-card-image {
-  min-width: 200px;
+  width: 250px;
+  text-align: center;
 }
 
 
