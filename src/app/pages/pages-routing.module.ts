@@ -7,7 +7,6 @@ import {CvComponent} from './cv/cv.component';
 import {UsefulLinksComponent} from './useful-links/useful-links.component';
 import {LinkDetailsComponent} from './useful-links/link-details/link-details.component';
 
-
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
