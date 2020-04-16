@@ -3,7 +3,7 @@
     {
       "id": "france",
       "name": "France",
-      "icon": "assets/img/france.png",
+      "icon": "assets/img/flags/france.png",
       "links": [
         {
           "name": "Impots",
@@ -20,7 +20,7 @@
     {
       "id": "canada",
       "name": "Canada",
-      "icon": "assets/img/canada.png",
+      "icon": "assets/img/flags/canada.png",
       "links": [
         {
           "name": "Salaire: neuvoo.ca",
@@ -36,8 +36,8 @@
     },
     {
       "id": "tunisie",
-      "name": "Tunisie",
-      "icon": "assets/img/tunisie.png",
+      "name": "Tunisia",
+      "icon": "assets/img/flags/tunisia.png",
       "links": [
         {
           "name": "La Poste",
