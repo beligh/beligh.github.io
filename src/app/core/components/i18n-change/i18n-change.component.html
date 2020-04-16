@@ -1,0 +1,10 @@
+<button mat-icon-button *ngIf="currentLanguage !== 'en'"
+        aria-label="icon-button uk flag icon"
+        (click)="changeLanguage('en')">
+  <mat-icon svgIcon="uk-flag" aria-hidden="false" aria-label="uk flag icon"></mat-icon>
+</button>
+<button mat-icon-button *ngIf="currentLanguage !== 'fr'"
+        aria-label="icon-button france flag icon"
+        (click)="changeLanguage('fr')">
+  <mat-icon svgIcon="fr-flag" aria-hidden="false" aria-label="France falg icon"></mat-icon>
+</button>

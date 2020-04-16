@@ -8,33 +8,22 @@ import { CvComponent } from './cv/cv.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { UsefulLinksComponent } from './useful-links/useful-links.component';
 import { LinkDetailsComponent } from './useful-links/link-details/link-details.component';
-import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import {FlexLayoutModule} from '@angular/flex-layout';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {LayoutModule} from '@angular/cdk/layout';
-import { LazyLoadImageModule } from 'ng-lazyload-image';
+
+import {SharedModule} from '../shared/shared.module';
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, CvComponent, PageNotFoundComponent,
-    UsefulLinksComponent, LinkDetailsComponent],
+  declarations: [
+    HomeComponent,
+    AboutComponent,
+    CvComponent,
+    PageNotFoundComponent,
+    UsefulLinksComponent,
+    LinkDetailsComponent
+  ],
   imports: [
     CommonModule,
     PagesRoutingModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule,
-    MatIconModule,
-    MatButtonModule,
-    MatCardModule,
-    FlexLayoutModule,
-    MatGridListModule,
-    LayoutModule,
-    LazyLoadImageModule,
+    SharedModule,
   ]
 })
 export class PagesModule { }
