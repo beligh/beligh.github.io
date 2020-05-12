@@ -1,0 +1,41 @@
+{
+  "content": [
+    {
+      "category": "backend",
+      "icon": "folder",
+      "items": [
+        { "title": "Java", "icon":  "star", "content":  "Java" },
+        { "title": "Spring Framework", "icon":  "star", "content":  "Spring Framework" }
+      ]
+    },
+    {
+      "category": "frontend",
+      "icon": "folder",
+      "items": [
+        { "category": "frontend","title": "JavaScript", "icon":  "star", "content":  "JavaScript" },
+        { "category": "frontend","title": "Angular", "icon":  "star", "content":  "Angular" },
+        { "category": "frontend","title": "TypeScript", "icon":  "star", "content":  "TypeScript" }
+      ]
+    },
+    {
+      "category": "devops",
+      "icon": "folder",
+      "items": [
+        { "category": "devops","title": "Docker", "icon":  "star", "content":  "Docker" },
+        { "category": "devops","title": "Jenkins", "icon":  "star", "content":  "Jenkins" }
+      ]
+    },
+    {
+      "category": "database",
+      "icon": "folder",
+      "items": [
+        { "category": "database","title": "MongoDB", "icon":  "star", "content":  "MongoDB" },
+        { "category": "database","title": "Elasticsearch", "icon":  "star", "content":  "Elasticsearch" },
+        { "category": "database","title": "Oracle database", "icon":  "star", "content":  "Oracle database" },
+        { "category": "database","title": "MySQL", "icon":  "star", "content":  "MySQL" },
+        { "category": "database","title": "PostgreSQL", "icon":  "star", "content":  "PostgreSQL" }
+      ]
+    }
+
+  ]
+}

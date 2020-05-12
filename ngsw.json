@@ -1,0 +1,132 @@
+{
+  "configVersion": 1,
+  "timestamp": 1589257453729,
+  "index": "https://beligh.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://beligh.github.io/1-es2015.6c30c211a4e2e82a4ba5.js",
+        "https://beligh.github.io/1-es5.6c30c211a4e2e82a4ba5.js",
+        "https://beligh.github.io/6-es2015.2938c0ce986154efd20e.js",
+        "https://beligh.github.io/6-es5.2938c0ce986154efd20e.js",
+        "https://beligh.github.io/7-es2015.9fc4f8aa47ffb2790fcf.js",
+        "https://beligh.github.io/7-es5.9fc4f8aa47ffb2790fcf.js",
+        "https://beligh.github.io/favicon.ico",
+        "https://beligh.github.io/index.html",
+        "https://beligh.github.io/main-es2015.d055124e5a640cc8c71a.js",
+        "https://beligh.github.io/main-es5.d055124e5a640cc8c71a.js",
+        "https://beligh.github.io/manifest.webmanifest",
+        "https://beligh.github.io/polyfills-es2015.ae2ff135b6a0a9cb55e7.js",
+        "https://beligh.github.io/polyfills-es5.736f2d9faec4ce67a92c.js",
+        "https://beligh.github.io/runtime-es2015.b89e5d3d97fbdec4d50c.js",
+        "https://beligh.github.io/runtime-es5.b89e5d3d97fbdec4d50c.js",
+        "https://beligh.github.io/styles.8f623960b038e917c0ae.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://beligh.github.io/assets/data/config.json",
+        "https://beligh.github.io/assets/data/links.json",
+        "https://beligh.github.io/assets/data/skills.json",
+        "https://beligh.github.io/assets/i18n/en.json",
+        "https://beligh.github.io/assets/i18n/fr.json",
+        "https://beligh.github.io/assets/icons/icon-128x128.png",
+        "https://beligh.github.io/assets/icons/icon-144x144.png",
+        "https://beligh.github.io/assets/icons/icon-152x152.png",
+        "https://beligh.github.io/assets/icons/icon-192x192.png",
+        "https://beligh.github.io/assets/icons/icon-384x384.png",
+        "https://beligh.github.io/assets/icons/icon-512x512.png",
+        "https://beligh.github.io/assets/icons/icon-72x72.png",
+        "https://beligh.github.io/assets/icons/icon-96x96.png",
+        "https://beligh.github.io/assets/img/canada.png",
+        "https://beligh.github.io/assets/img/cube64px.svg",
+        "https://beligh.github.io/assets/img/flags/canada.png",
+        "https://beligh.github.io/assets/img/flags/canada.svg",
+        "https://beligh.github.io/assets/img/flags/france.png",
+        "https://beligh.github.io/assets/img/flags/france.svg",
+        "https://beligh.github.io/assets/img/flags/tunisia.png",
+        "https://beligh.github.io/assets/img/flags/tunisia.svg",
+        "https://beligh.github.io/assets/img/flags/uk.png",
+        "https://beligh.github.io/assets/img/flags/uk.svg",
+        "https://beligh.github.io/assets/img/flags/us.png",
+        "https://beligh.github.io/assets/img/flags/us.svg",
+        "https://beligh.github.io/assets/img/france.png",
+        "https://beligh.github.io/assets/img/notfound.png",
+        "https://beligh.github.io/assets/img/tunisie.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://beligh.github.io/1-es2015.6c30c211a4e2e82a4ba5.js": "2439b1bc90484ea82379189776aaabaa570e427e",
+    "https://beligh.github.io/1-es5.6c30c211a4e2e82a4ba5.js": "3117a6f594e45b09147b9f86f6c46692698ff1d0",
+    "https://beligh.github.io/6-es2015.2938c0ce986154efd20e.js": "5769a26317184eb33395ec13e17c5ec63dc6c6eb",
+    "https://beligh.github.io/6-es5.2938c0ce986154efd20e.js": "d884f6bf692deefeaebdd8c8aee2252f5b778704",
+    "https://beligh.github.io/7-es2015.9fc4f8aa47ffb2790fcf.js": "cf0c4efd45f39999c5ec661b641048d49554637a",
+    "https://beligh.github.io/7-es5.9fc4f8aa47ffb2790fcf.js": "5691d8a57faa071aec2cdd1c6475498d368675f6",
+    "https://beligh.github.io/assets/data/config.json": "df2f7b2cc18f548d522dd62d0e7ae74af73b6abb",
+    "https://beligh.github.io/assets/data/links.json": "4a637259e67d32927d84b5b561dce52737147808",
+    "https://beligh.github.io/assets/data/skills.json": "98fed513df76fd5fcde8cc4dda2d5ca38754b7b2",
+    "https://beligh.github.io/assets/i18n/en.json": "f0f80b9452362f7fc19911817cf9536e2d84a815",
+    "https://beligh.github.io/assets/i18n/fr.json": "7a5e712e6fff7e36609a5959b03c028cd6d5c163",
+    "https://beligh.github.io/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://beligh.github.io/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://beligh.github.io/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://beligh.github.io/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://beligh.github.io/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://beligh.github.io/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://beligh.github.io/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://beligh.github.io/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://beligh.github.io/assets/img/canada.png": "bceb8ff501ef36f23016ea06637a766d98c02879",
+    "https://beligh.github.io/assets/img/cube64px.svg": "56220ea97086b7047d68edfbd45bb40e8ec3e3fd",
+    "https://beligh.github.io/assets/img/flags/canada.png": "eca8644f998407ace82e8e14bcd5a28d4ef4265d",
+    "https://beligh.github.io/assets/img/flags/canada.svg": "8ab83bb75a0e26454007e7ce8a7806e7cca1f34a",
+    "https://beligh.github.io/assets/img/flags/france.png": "9cad440e7ab01350a2e15833bb349c38adf82ba5",
+    "https://beligh.github.io/assets/img/flags/france.svg": "90669ff0d6cbd933d07b88b475b2715d4aa4ad8e",
+    "https://beligh.github.io/assets/img/flags/tunisia.png": "1d854fc98b2c090e64be7bf6f88748fbfda03744",
+    "https://beligh.github.io/assets/img/flags/tunisia.svg": "e32f916e7234851247786191fa3dc0021adfbede",
+    "https://beligh.github.io/assets/img/flags/uk.png": "d633f319b4d11d9b83935e11b297d711de689f9d",
+    "https://beligh.github.io/assets/img/flags/uk.svg": "3c98ee0fb46bbdf0f3830fb7ef743a5fbe28ff4d",
+    "https://beligh.github.io/assets/img/flags/us.png": "2f68217e78e0c9406a81fbb09f1d7a70fa3ac969",
+    "https://beligh.github.io/assets/img/flags/us.svg": "18cd58f19d898ea663065c79c575ff2a5dd6a118",
+    "https://beligh.github.io/assets/img/france.png": "c82a77abec28c30e97a65719f052d8d660293af0",
+    "https://beligh.github.io/assets/img/notfound.png": "39058a4962bc5b5730a562ee8e4e04ce7bd1f84b",
+    "https://beligh.github.io/assets/img/tunisie.png": "0d3440177bb78fbfc8c2d8bb37d2b51f55697aee",
+    "https://beligh.github.io/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://beligh.github.io/index.html": "6e241c1b9cc2aaec795f344001b06cd5fe772f8d",
+    "https://beligh.github.io/main-es2015.d055124e5a640cc8c71a.js": "ac362da517cdddc54ea06b3120fdac872c2f1ba7",
+    "https://beligh.github.io/main-es5.d055124e5a640cc8c71a.js": "8cec290f3d351244def8f942a63050be3174d2e2",
+    "https://beligh.github.io/manifest.webmanifest": "3cf1eee71389331f755ebac7c2614d5dc9ca7277",
+    "https://beligh.github.io/polyfills-es2015.ae2ff135b6a0a9cb55e7.js": "15a133b6cbb459a66fcd2e75f6aa25782e5d79c4",
+    "https://beligh.github.io/polyfills-es5.736f2d9faec4ce67a92c.js": "6fb9b275d5f1484215fde72ba3f10480fa9692a8",
+    "https://beligh.github.io/runtime-es2015.b89e5d3d97fbdec4d50c.js": "31763d2fdd3542c0f253ecd75303ac8ce6fbcb47",
+    "https://beligh.github.io/runtime-es5.b89e5d3d97fbdec4d50c.js": "9ef1ff21e8cf88641c1de1da81a89cf0a65a980f",
+    "https://beligh.github.io/styles.8f623960b038e917c0ae.css": "274bc08c96b763998981b9e365cc6249bbfa5663"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

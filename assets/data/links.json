@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "france",
+      "name": "France",
+      "icon": "assets/img/flags/france.png",
+      "links": [
+        {
+          "name": "Impots",
+          "details": "Impots",
+          "url": "https://www.impots.gouv.fr/portail/"
+        },
+        {
+          "name": "Pole  d'emploi",
+          "details": "Pole  d'emploi",
+          "url": "https://www.pole-emploi.fr/accueil/"
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "icon": "assets/img/flags/canada.png",
+      "links": [
+        {
+          "name": "Salaire: neuvoo.ca",
+          "details": "Job and Salary",
+          "url": "https://neuvoo.ca/tax-calculator/?iam=&uet_calculate=calculate&salary=75000&from=year&region=Quebec"
+        },
+        {
+          "name": "STM - Société de transport de Montréal",
+          "details": "Société de transport de Montréal, Métro, Bus",
+          "url": "http://www.stm.info/fr"
+        }
+      ]
+    },
+    {
+      "id": "tunisie",
+      "name": "Tunisia",
+      "icon": "assets/img/flags/tunisia.png",
+      "links": [
+        {
+          "name": "La Poste",
+          "details": "La Poste",
+          "url": "https://www.poste.tn"
+        }
+      ]
+    }
+  ]
+}

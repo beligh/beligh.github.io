@@ -1,0 +1,10 @@
+{
+  "title": "Beligh HAMDI",
+  "logo": "assets/img/beligh50x50.png",
+  "links": [
+    { "path": "/home", "title": "Home", "icon": "home" },
+    { "path": "/about", "title": "About", "icon": "info" },
+    { "path": "/skills", "title": "Skills", "icon": "school" },
+    { "path": "/useful-links", "title": "Useful links", "icon": "web", "enable": false }
+  ]
+}
