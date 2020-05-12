@@ -1,7 +1,7 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {filter, map, mergeAll, tap} from 'rxjs/operators';
-import {AppService} from '../../../core/services/app.service';
+import {AppService} from '@app/core/services/app.service';
 import {Location} from '@angular/common';
 
 @Component({

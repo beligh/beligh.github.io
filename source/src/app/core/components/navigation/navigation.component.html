@@ -25,15 +25,20 @@
 
       <app-i18n-change></app-i18n-change>
 
-      <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="icon-button with a menu">
-        <mat-icon>more_vert</mat-icon>
+      <!--
+     <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="icon-button with a menu">
+       <mat-icon>more_vert</mat-icon>
+     </button>
+
+    <mat-menu #menu="matMenu">
+
+      <button mat-menu-item [disabled]="true">
+        <mat-icon>dialpad</mat-icon>
+        <span>Redial</span>
       </button>
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item [disabled]="true">
-          <mat-icon>dialpad</mat-icon>
-          <span>Redial</span>
-        </button>
-      </mat-menu>
+
+     </mat-menu>
+      -->
     </mat-toolbar>
     <section class="app-content">
       <router-outlet></router-outlet>

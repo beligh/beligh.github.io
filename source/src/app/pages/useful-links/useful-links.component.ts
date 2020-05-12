@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {AppService} from '../../core/services/app.service';
+import {AppService} from '@app/core/services/app.service';
 import {map, mergeAll, shareReplay, tap} from 'rxjs/operators';
 import {Router} from '@angular/router';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';

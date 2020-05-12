@@ -4,7 +4,7 @@
   "links": [
     { "path": "/home", "title": "Home", "icon": "home" },
     { "path": "/about", "title": "About", "icon": "info" },
-    { "path": "/cv", "title": "CV", "icon": "school" },
-    { "path": "/useful-links", "title": "Useful links", "icon": "web" }
+    { "path": "/skills", "title": "Skills", "icon": "school" },
+    { "path": "/useful-links", "title": "Useful links", "icon": "web", "enable": false }
   ]
 }

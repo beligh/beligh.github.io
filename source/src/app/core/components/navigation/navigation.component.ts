@@ -1,11 +1,8 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
-import { map, shareReplay } from 'rxjs/operators';
-import {AppService} from '../../services/app.service';
-import {MatIconRegistry} from '@angular/material/icon';
-import {DomSanitizer} from '@angular/platform-browser';
-import {DefaultLangChangeEvent, LangChangeEvent, TranslateService, TranslationChangeEvent} from '@ngx-translate/core';
+import {map, shareReplay} from 'rxjs/operators';
+import {AppService} from '@app/core/services/app.service';
 
 @Component({
   selector: 'app-navigation',
@@ -34,9 +31,9 @@ export class NavigationComponent implements OnInit {
 
   private findConfig(): void {
     this.appService.findConfig().subscribe(data => {
-      this.links = data.links;
       this.title = data.title;
       this.logo = data.logo;
+      this.links = data.links.filter((item: any) =>  item.enable !== false);
     });
   }
 
