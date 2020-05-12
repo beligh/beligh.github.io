@@ -1,0 +1,14 @@
+.app-headers-align .mat-expansion-panel-header-title,
+.app-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.app-headers-align .mat-expansion-panel-header-description {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app-headers-align .mat-expansion-panel-header-title {
+  display: flex;
+  align-items: center;
+}

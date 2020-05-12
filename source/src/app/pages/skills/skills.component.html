@@ -1,0 +1,22 @@
+<div class="mat-title with-icon">
+  <mat-icon inline="true">school</mat-icon>
+  <span class="app-padding">Skills</span>
+</div>
+
+<mat-accordion class="app-headers-align">
+  <mat-expansion-panel *ngFor="let item of skills">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <mat-icon>{{item?.icon}}</mat-icon>
+        <div class="app-padding">{{item?.category  | titlecase }}</div>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let skill of item?.items">
+      <div class="mat-subheading-2 with-icon">
+        <mat-icon inline="true">{{skill?.icon}}</mat-icon>
+        <span class="app-padding">{{skill?.title  | titlecase }}</span>
+      </div>
+     <!-- <div [innerHTML]="skill?.content"></div> -->
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>
